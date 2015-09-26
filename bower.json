@@ -1,0 +1,16 @@
+{
+  "name": "1.4-tshirts",
+  "version": "0.0.0",
+  "homepage": "https://github.com/scott6455/1.4-tshirts",
+  "authors": [
+    "scott6455 <scottgreen555@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
