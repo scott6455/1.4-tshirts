@@ -1,0 +1,49 @@
+/*-- @import 'bower_components/reset-css/reset.css';
+tshirt assignment--*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.line:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.line {
+    display: block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.unit {
+  border: 1px solid blue;
+  padding: 5px 5px 5px 5px;
+}
+
+.size1of3 {
+    background-color: rgb(216, 228, 212);
+    width: 33.3%;
+    color: black;
+    display: block;
+    float: left;
+    margin: 0;
+
+}
+
+.lastUnit {
+  background-color: rgb(216, 228, 212);
+  color: red;
+  display: table-cell;
+  float: none;
+  width: auto;
+}
