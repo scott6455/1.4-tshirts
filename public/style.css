@@ -1,49 +1,52 @@
 /*-- @import 'bower_components/reset-css/reset.css';
 tshirt assignment--*/
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
 
 .line:after {
   content: ".";
-  display: block;
-  height: 0;
+  display: inline-block;
   clear: both;
   visibility: hidden;
 }
 
 .line {
-    display: block;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    background-color: white;
+    background-image: url('wall.png');
+    position: relative;
+    width: 100%;
+    padding: 50px 100px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
-.unit {
-  border: 1px solid blue;
-  padding: 5px 5px 5px 5px;
+.unit .size1of3 {
+  position: static;
+  width: 30%;
 }
 
 .size1of3 {
-    background-color: rgb(216, 228, 212);
-    width: 33.3%;
+    background-color: transparent;
     color: black;
-    display: block;
-    float: left;
+    display: inline-block;
     margin: 0;
-
-}
+    padding: 50px 20px 100px 20px;
+    vertical-align: auto;
+  }
 
 .lastUnit {
-  background-color: rgb(216, 228, 212);
+  background-color: transparent;
   color: red;
-  display: table-cell;
+  display: inline-block;
+  position: relative;
   float: none;
-  width: auto;
 }
+
+.unit {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+
+
