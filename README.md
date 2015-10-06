@@ -59,3 +59,6 @@ Notes go here...
 - CSS Tricks Transitions: https://css-tricks.com/almanac/properties/t/transition/
 - CSS Tricks Transform: https://css-tricks.com/almanac/properties/t/transform/
 - Dropdown Inspiration: http://codepen.io/tag/dropdown/
+
+
+pull req #3-- https://github.com/scott6455/1.4-tshirts/pull/3
